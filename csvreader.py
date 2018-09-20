@@ -20,7 +20,7 @@ for csvFilename in os.listdir('.'):
 
 
 csvRows = []
-csvFileObj = open(karcsv.csv)
+csvFileObj = open(example.csv)
 readerObj = csv.reader.(csvFileObj)
 for row in readerObj:
     if readerObj.line_num == 1:
